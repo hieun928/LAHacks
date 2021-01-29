@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#header {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+#backToHome {
+    color: black;
+}
+
+#rant {
+    color: mediumaquamarine;
+}

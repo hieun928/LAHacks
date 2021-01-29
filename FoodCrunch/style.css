@@ -1,0 +1,133 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus {
+    outline: none;
+    background-image: none;
+    background-color: white;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Home Page CSS */
+#search {
+    font-size: 150%;
+    background-image: url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/1/2/0/valentines_steak.jpg.rend.hgtvcom.616.462.suffix/1385127027449.jpeg"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJOfGs3r7CCLzgL-BwOp2If2VtXYAwKji68SmyqJPjRHIG2kr"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-GaWt3hxMGAkvxOddRW9KjYFA96V-NxCNpGTkkCoZBiXuHaG5");
+    background-position: top, center, bottom;
+    background-size: 500px, 500px, 500px;
+    background-repeat: repeat-x;
+    background-blend-mode: soft-light;
+}
+
+.main {
+    background-color: grey;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay {
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+#query {
+    font-size: 150%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+#textbox {
+    padding: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSy9M0jp0zR9CIgkFLPbLR_IPYmy8hZfSvPMNGHkcRAN_XdcXXfQ");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.65;
+    box-shadow: 0 2px 2px 0 grey;
+    border-color: rgba(197, 187, 187, 0);
+    width: 700px; 
+    height: 50px;
+    font-size: 27pt;
+}
+
+#videoThumbnail {
+    padding: 0 0 10px 0;
+    width: 700px;
+    height: 500px;
+    z-index: 2;
+} 
+
+#MapRec {
+    padding: 15px 150px 0 150px;
+}
+
+#mapBtn {
+    width: 200px;
+    float: left;
+}
+
+#recBtn {
+    width: 200px;
+    float: right;
+}
+
+#mapBtn:focus,
+#recBtn:focus {
+    background-color: rgb(0, 255, 106);
+}
+
+#map {
+    padding-top: 100px;
+}
+
+#rcmd {
+    padding-top: 100px;
+}
+
+#card1 {
+    padding: 15px, 0, 0, 0;
+    background-color: lime;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#card2 {
+    background-color: cyan;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}

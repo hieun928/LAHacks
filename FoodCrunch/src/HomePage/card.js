@@ -1,0 +1,14 @@
+import React from 'react';
+
+export default class Card extends React.Component
+{
+    render() {
+        return ( <div className="card">
+            <div className="content">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEVTxO7///9Iwe1ex+/z+/5Uxe5Fwe1tzfG75Pfq9/0+v+3J7Pmh3fVoy/BMw+6s4faO1vPY8fvj9vzD6fl70PGF0/Ka2vTH6vl2z/H3/f7c8vu04/e/5viV2fSp3/bu+f1E/oIOAAADuUlEQVR4nO3W25KjOAwGYMvGBmwQmEMCgZD3f8uRTbo70zO1tRebrtqq/7uJyxhiISFQCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg/4l/+/mXizj5/SA/Z9P8P1/shxhhlXJt6dKWXGncH2tsWqTSojYdZFva597LJMVSGm7LNGmX52xZysB+u1Jp3hzOH7gjcWEdidaWuVyJgv62yNVpkWE7ENVG6SadkhfZB53n86PRi/wqjlGbPEkPNrTwtyttP51WF0NblkZvhXGhdroYfbseaResc7mlRYZ6WWR1GKy+RVfS7O+Uk2GL2Xt/SPR1w/qg1h2rkcBamfVOBuVXCbtUIzZdOPmYeDtb3L12yq+NZkvtRBJ0V0sp8hJadl2XwpyIWXajqZckk6luXvkzGbboUy5pThFK/oZW1qjPwF4j7IYop3e92q/XcWzYdrc4/0CIhkJRdJpTOXnqLw/ZZ09ejvAQ/UxTirBZ41rPUnwtK0tL3LXSIdey5NBpSWqrc4SmoN2liy7Kipcccqibinpfd7zt1ZU2N9TNlsr6zXimbblQp9JW/Hpvak4pyxG21NGRGoseqV92KttUmZamWyX5HGM6ZB9xHIM8uTmHygdadIowq/RLhMXmfb/4oZNy0EV0fSF1PBfvDlB27+Ufm4d9jXDOESp9oVseKOc1+6GSHP41wn3W6qzSnmLas+Qwd+jXHEp3ind2EqHSw8C6okKkK76ZkS1ouZ8ku/Q0zSSbvaxnhAfF88XRSu5cCD7VrIQ5Bicdavys0tySJEIJ6HDF1f31OfTmiBRSDl2QZqT3epnnafn+NvnPsfRE50P0tyBFRLLH2fmYHzEp1oaaPIrRO7veXV153xTusrK2NL90mjNCfbuxnqhPD6xL/ZLPQQ7ydpdzHxKh76TTateT8X6q3h6hUsNji3KnJ4ojHVqKZ4/PG79e5Z2wnL00VsUtFWEY6c5c1FUx5PTa9SPCR+O61Il0R8ZQDIk9B1U6vtE40iadZqLhGsLmYpqofuJ90YXKyMbKMaTN6nvYy5y4We6v63Kz01KYTQ51DFLNym6hO0+23UcZHhPvZ/PfelVlu7X5N6/lPgR5WxxzmQ8dzPdwnb9/W7wFn1XE+S0s0Tyr6nzZP785WX8u4pdzvhbkAfPX6OO79Ou79bywfh7SL/8EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+QXjwwwaOn4/YQAAAAASUVORK5CYII=" /> 
+                <h4><b> Enter Message Here</b></h4> 
+            </div>
+
+        </div>)
+    }
+}
